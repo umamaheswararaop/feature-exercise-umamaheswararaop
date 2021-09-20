@@ -38,7 +38,7 @@ class Sdk extends AbstractSdk {
                     $dis_csum = $qty_c3 * 50 + $qty_c3_remainder_sum;
                 }
             } else {
-                $dis_csum = 0;
+                $dis_csum = $ItemUnit * 20;
                 $actual_csum = $ItemUnit * 20;
             }
             return $iTotalPrice = $dis_csum;

@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=0);
 use \PHPUnit\Framework\TestCase;
 use Source\Sdk;
 
@@ -22,6 +21,7 @@ class SdkTest extends TestCase
             ["B", 30, 1],
             ["B", 75, 3],
             ["B", 45, 2],
+            ["C", 20, 1],
             ["C", 38, 2],
             ["C", 50, 3],
             ["C", 88, 5],
@@ -33,7 +33,6 @@ class SdkTest extends TestCase
             ["E", 10, 2],
             ["E", 15, 3],
         ];
-        $this->assert('');
     }
 
     /**
