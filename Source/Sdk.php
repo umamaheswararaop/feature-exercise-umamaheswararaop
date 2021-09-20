@@ -39,7 +39,7 @@ class Sdk extends AbstractSdk {
                 }
             } else {
                 $dis_csum = $ItemUnit * 20;
-                $actual_csum = $ItemUnit * 20;
+                //$actual_csum = $ItemUnit * 20;
             }
             return $iTotalPrice = $dis_csum;
             /* End of Logic for Calculating the items C */
